@@ -1,0 +1,121 @@
+<resources>
+    <!--Title app-->
+    <string name="app_name">Lici-Manager</string>
+    <!--Title activities-->
+    <string name="title_activity_tabs_publication">PUBLICACIONES</string>
+    <string name="title_activity_maps">LOCALIZACIÓN</string>
+    <string name="new_publication">PUBLICACIÓN</string>
+    <string name="politics">POLÍTICAS</string>
+    <string name="about">NOSOTROS</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--LoginActivity-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_log_in">Iniciar</string>
+    <string name="title_log_in">Iniciar Sesión</string>
+    <string name="verify_company">Verificando empresa...</string>
+    <string name="logging_in">Iniciando Sesión...</string>
+
+    <!--Recursos para validación de datos-->
+    <string name="err_msg_email">Ingrese una direction de correo valido</string>
+    <string name="err_msg_password">Ingrese su clave</string>
+
+    <!--Perfil-->
+    <string name="not_selected">No selecciono nada, intente nuevamente.</string>
+    <string name="company_description">Descripción o información</string>
+    <string name="company_name">Nombre de empresa</string>
+    <string name="company_category">Categoria</string>
+    <string name="company_locate_name">Ubicación</string>
+    <string name="company_direction">Dirección</string>
+    <string name="cerrar_sesion">CERRAR SESIÓN</string>
+    <string name="company_save_profile_info">Guardar</string>
+    <string name="uploadingToServer">Actualizando datos...</string>
+    <string name="savingToServer">Guardando datos en el servidor</string>
+    <string name="error_conection">Error en comunicación, por favor revise su conexión</string>
+    <string name="save">GUARDAR</string>
+    <string name="hint_direction">Mz d cs 4 B/Los olivos</string>
+    <string name="permission_title">ACCION NECESARIA</string>
+
+    <!--Nueva publicación-->
+    <string name="company_name_new_pub">Nombre publicación</string>
+    <string name="company_description_new_pub">Descripcion</string>
+    <string name="company_datePicker_new_pub">Válido hasta</string>
+    <string name="title_cupos_new_pub">Cupos:</string>
+    <string name="title_poblacion_new_pub">Dirigida a:</string>
+    <string name="men">Hombres</string>
+    <string name="women">Mujeres</string>
+    <string name="title_subcategory">Subcategoria</string>
+    <string name="title_type_publication">Tipo</string>
+    <string name="title_sp_type_publication">Tipo publicación</string>
+    <string name="title_save_publication">GUARDAR</string>
+    <string-array name="type_publication">
+        <item>Promocion</item>
+        <item>Evento</item>
+    </string-array>
+
+    <!--Navegation Drawer-->
+    <string name="navigation_drawer_open">Abrir navegación</string>
+    <string name="navigation_drawer_close">Cerrar navegación</string>
+
+    <!--Politics-->
+    <string name="tvTitleConditions">CONDICIONES DE USO</string>
+    <string name="tvParagraphConditions">El usuario se compromete a utilizar LICI MANAGER y todo su contenido de acuerdo a las presentes condiciones de uso: •\tReconoce y acepta que el uso de los contenidos ofrecidos por LICI MANAGER será bajo su exclusivo riesgo y/o responsabilidad. •\tSe compromete hacer uso adecuado del contenido de LICI MANAGER, y a no emplearlo para realizar actividades ilícitas o constitutivas de delitos que infrinjan con las normas y leyes establecidas. •\t La publicación y/o transmisión del material publicitario debe estar exento de:  o\tcontenidos de carácter racista, xenófobo, pornográfico, violencia o material que atente contra los derechos humanos. o\tContenido que atente contra los derechos fundamentales y las libertades públicas. o\tProgramas de datos (virus y software nocivo) susceptibles de provocar daños en los sistemas informáticos. o\tMaterial con información y contenidos falsos, ambiguos o inexactos de forma que introduzcan error a los receptores de la información. o\tContenido que viole los derechos de propiedad intelectual e industrial. o\tMaterial que suponga una violación a la legislación de datos de carácter personal.</string>
+    <string name="tvTitleRestrict">RESTRICCIONES</string>
+    <string name="tvParagraphRestrict">•\tMenores de edad. Para hacer uso de las funciones y servicios de la aplicación móvil LICI MANAGER, el usuario o cliente debe ser mayor de edad. El acceso a la aplicación será restringido para usuarios menores de 18 años.</string>
+    <string name="tvTitleDuration">DURACIÓN Y TERMINACIÓN</string>
+    <string name="tvParagraphDuration">Los contenidos y servicios de LICI MANAGER tienen una duración indefinida. Sin prejuicio de lo anterior, eCreations S.A.S puede dar por terminado o interrumpir en cualquier momento y sin previo aviso, la prestación del servicio en caso de que el usuario y/o cliente falte a las condiciones de uso y/o al contrato firmado entre las partes.</string>
+    <string name="tvTitlePolitics">POLÍTICAS DE PRIVACIDAD</string>
+    <string name="tvParagraphPolitics">LICI MANAGER pone a disposición de los usuarios las &lt;a href="http://liciapp.com/info/politicas.html">políticas del tratamiento y uso de los datos personales&lt;/a> brindados por el cliente para la utilización de las funciones de la aplicación móvil.</string>
+
+    <!--About-->
+    <string name="tv_version">Versión 1.0</string>
+    <string name="tv_name_ecreations">eC Technology</string>
+    <string name="tv_all_rights_reserved">Todos los derechos reservados</string>
+    <string name="tvNameJhon">Jhon Mac Billy Martínez Narváez</string>
+    <string name="tvTitleCreditsDevelopment">DESARROLLO</string>
+    <string name="loading_data">Cargando datos...</string>
+
+
+    <array name="pref_category_profile_company_titles">
+        <item>Rumba</item>
+        <item>Eventos</item>
+        <item>Empresarial</item>
+        <item>Bares y Restaurantes</item>
+        <item>Diversión y ocio</item>
+        <item>cine</item>
+        <item>Educación</item>
+        <item>Compras</item>
+        <item>Deportes</item>
+        <item>Autos</item>
+        <item>Motos</item>
+        <item>Viaje</item>
+        <item>Salud y belleza</item>
+        <item>Vivienda</item>
+    </array>
+    <!--Detail Publication-->
+    <string name="title_activity_detail_publication">Detalle Publication</string>
+    <string name="not_registrer">No registra</string>
+    <string name="not_registrer_count_coupons">Cupones: No registra</string>
+    <string name="not_registrer_reserved_coupons">Cupones reservados: No registra</string>
+    <string name="not_registrer_redeemed_coupons">Cupones redimidos: No registra</string>
+    <!--Intro-Slider-->
+    <string name="next">Siguiente</string>
+    <string name="skip">Saltar</string>
+    <string name="start">Empezar</string>
+    <string name="txtIntro1">Manténte informado de los mejores descuentos y eventos de tu ciudad.</string>
+    <string name="txtIntro2">Encuentra los mejores productos y servicios en un solo lugar.</string>
+    <string name="txtIntro3">cuentanos tus intereses y descubre lo que lici tiene para ti.</string>
+
+    <!--Validations -->
+    <string name="txtValidateNameCompany1">El nombre es requerido</string>
+    <string name="txtValidateNameCompany2">El nombre debe tener entre 2 y 20 caracteres</string>
+    <string name="txtValidateDescriptionCompany">La descripción puede tener hasta 250 caracteres</string>
+    <string name="txtValidateDescriptionPublication">La descripción puede tener hasta 50 caracteres</string>
+    <string name="txtValidateDateEnd">La fecha debe ser futura</string>
+    <string name="formatDate">dd/MM/yyyy</string>
+
+</resources>

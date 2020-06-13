@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codigoj.niko_niko.login">
+
+    <item
+        android:id="@+id/cerrar_sesion"
+        android:orderInCategory="100"
+        android:title="@string/cerrar_sesion"
+        app:showAsAction="always"
+        />
+</menu>

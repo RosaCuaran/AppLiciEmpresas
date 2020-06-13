@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codigoj.tabs.MainActivity">
+    <item
+        android:id="@+id/save_new_pub"
+        android:orderInCategory="100"
+        android:title="@string/title_save_publication"
+        app:showAsAction="ifRoom" />
+</menu>

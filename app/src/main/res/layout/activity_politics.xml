@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.codigoj.lici.PoliticsActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/appbar_padding_top"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars = "vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/appbar_padding_top"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTitleConditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:text="@string/tvTitleConditions"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <TextView
+                android:id="@+id/tvParagraphConditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|start"
+                android:text="@string/tvParagraphConditions" />
+            <TextView
+                android:id="@+id/tvTitleRestrict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:text="@string/tvTitleRestrict" />
+            <TextView
+                android:id="@+id/tvParagraphRestrict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvParagraphRestrict"/>
+            <TextView
+                android:id="@+id/tvTitleDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:text="@string/tvTitleDuration"/>
+            <TextView
+                android:id="@+id/tvParagraphDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvParagraphDuration"/>
+            <TextView
+                android:id="@+id/tvTitlePolitics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:text="@string/tvTitlePolitics"/>
+            <TextView
+                android:id="@+id/tvParagraphPolitics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvParagraphPolitics"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_politics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_politics"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

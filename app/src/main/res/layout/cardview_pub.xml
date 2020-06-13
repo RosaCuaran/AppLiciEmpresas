@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    card_view:cardElevation="@dimen/cardview_default_elevation"
+    card_view:cardCornerRadius="@dimen/cardview_default_radius"
+    card_view:cardPreventCornerOverlap="false"
+    android:layout_marginBottom="@dimen/cardview_margin_button_top"
+    android:paddingBottom="@dimen/cardview_margin_button_top"
+    android:layout_marginTop="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/paddingTop_cardview_pub">
+
+            <TextView
+                android:id="@+id/cardNombre"
+                android:layout_width="@dimen/cardview_title_pub"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="@dimen/paddingLeftRight_icon"
+                android:text="Puede ser un titulo muy largo y los iconos no deben perderse"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_edit_publication"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@mipmap/ic_edit_pub"
+                    android:paddingBottom="@dimen/paddingTopBottom_icon"
+                    android:paddingLeft="@dimen/paddingLeftRight_icon"
+                    android:paddingRight="@dimen/paddingLeftRight_icon"
+                    android:paddingTop="@dimen/paddingTopBottom_icon" />
+
+                <ImageButton
+                    android:id="@+id/btn_delete_publication"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/layout_object"
+                    android:background="@mipmap/ic_delete_pub"
+                    android:paddingBottom="@dimen/paddingTopBottom_icon"
+                    android:paddingRight="@dimen/paddingLeftRight_icon"
+                    android:paddingTop="@dimen/paddingTopBottom_icon" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--Cambiar layout_height valor por wrapcontent-->
+        <ImageView
+            android:id="@+id/cardImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:id="@+id/cardDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background_pub"
+            android:padding="@dimen/layout_object"
+            android:text="Descripcion de publicación"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/text_dark" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
